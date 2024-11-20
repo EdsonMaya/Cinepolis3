@@ -2,20 +2,14 @@
 //  ContentView.swift
 //  Cinepolis
 //
-//  Created by Edson Maya Méndez on 18/11/24.
+//  
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        MovieListView()
     }
 }
 
